@@ -8,3 +8,6 @@
 构建相机旋转信息对应的样条函数需要先将对应时刻的旋转矩阵转化为对应的李代数，即在李代数空间构建对应的三次样条函数
 ![image](https://github.com/user-attachments/assets/32ccb742-b3e2-4e36-9f2a-5daf927bde5b)
 
+How to use?
+
+首先下载VINS-MONO (https://github.com/HKUST-Aerial-Robotics/VINS-Mono) 框架，随后将本项目中的feature_tracker、pose_graph、vins_estimator文件替换VINS-MONO对应的文件.替换完成后根据VINS-MONO给出的方法进行安装即可。
