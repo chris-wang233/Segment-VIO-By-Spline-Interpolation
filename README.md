@@ -12,4 +12,3 @@ How to use?
 
 首先下载VINS-MONO (https://github.com/HKUST-Aerial-Robotics/VINS-Mono) 框架，随后将本项目中的feature_tracker、pose_graph、vins_estimator文件替换VINS-MONO对应的文件.替换完成后根据VINS-MONO给出的方法进行安装即可。
 
-注意，目前代码还有较多bug
